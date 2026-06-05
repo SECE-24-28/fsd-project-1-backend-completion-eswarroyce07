@@ -14,6 +14,7 @@ app.use(express.json());
 app.use('/api/auth', authRouter);
 app.use('/api/contact', contactRouter);
 
+app.get('/', (req, res) => res.json({ message: 'College Backend API is running 🎉' }));
 app.get('/api/health', (req, res) => res.json({ status: 'ok' }));
 
 mongoose
