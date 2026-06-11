@@ -21,6 +21,7 @@ const corsOptions = {
     'https://college-cc.onrender.com',
     'https://campuscare.onrender.com',
     'https://campuscareeee.netlify.app',
+    'https://campuscareeeee.netlify.app',
     'https://college-campus-1pra.onrender.com',
     /\.onrender\.com$/,
     /\.netlify\.app$/,
