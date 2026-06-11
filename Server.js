@@ -44,7 +44,7 @@ app.use('/api/faculty',    facultyRouter);
 app.use('/api/notices',    noticeRouter);
 app.use('/api/admissions', admissionRouter);
 
-app.get('/', (req, res) => res.json({ message: 'College Backend API is running 🎉' }));
+app.get('/', (req, res) => res.json({ message: 'College Backend API is running 🎉', version: '2.0' }));
 app.get('/api/health', (req, res) => res.json({ status: 'ok', timestamp: new Date().toISOString() }));
 
 mongoose
